@@ -1,4 +1,8 @@
-# Dev.Cell_2015_MTdensityAndMSD
-These are for the Dev Cell2015 paper, to calculate microtubule spacing and mean square displacement of insulin granule movement.  The combination of the image macro and Matlab were used.
+# MT density
+1.Use image J macro to get the reading from the image
 
-# Coming Soon
+2.To calculate type this in the shell:<br>
+Python calculate.py filename correctX corrctionY     
+
+>require: Python3 pandas, numpy, scipy, sys, os
+
